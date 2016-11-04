@@ -9,7 +9,7 @@ def bitsToBytes(a):
     if i > 0:
         yield s << (8 - i)
 
-lst = [0,0,0,0,0,0,1,1]
+lst = [0,0,0,0,0,0,1,1] #an example of a list of 8 bits
 
 for b in bitsToBytes(iter(lst)):
     print b
